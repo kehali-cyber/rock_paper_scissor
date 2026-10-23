@@ -32,7 +32,7 @@ function playGame () {
     let computerScore = 0;
   
     function playRound( humanChoice , computerChoice){
-        humanChoice = humanChoice.toLowerCase
+        humanChoice = humanChoice.toLowerCase();
        
            if (humanChoice === computerChoice) {
             return `Tie! Both chose ${humanChoice}.`;
